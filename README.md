@@ -1,3 +1,6 @@
+Ruby Version ruby 2.6.5p114
+Rails Version Rails 6.0.0
+
 # API Movies
 
 ## Index
@@ -15,4 +18,22 @@ PATCH localhost:3000/movies/1?movie[name]=&movie[description]=some description&m
 ## SHOW
 
 GET localhost:3000/movies/1
+
+# API Reservations
+
+## Index
+
+GET  localhost:3000/movies/1/reservations
+
+## Create
+
+POST localhost:3001/movies/1/reservations?reservation[email]=darenas@softdreams.co&reservation[name]=Daniel Arenas&reservation[identification]=1144151411&reservation[reservation_date]=01/01/2019
+
+## Update
+
+PATH localhost:3001/movies/1/reservations/1?reservation[email]=darenas@softdreamsmo.co&reservation[name]=Daniel Arenas&reservation[identification]=1144151411&reservation[reservation_date]=01/01/2019
+
+## SHOW
+
+GET 
 
