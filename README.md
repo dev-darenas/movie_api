@@ -35,5 +35,5 @@ PATH localhost:3001/movies/1/reservations/1?reservation[email]=darenas@softdream
 
 ## SHOW
 
-GET 
+GET localhost:3001/movies/1/reservations/1
 
